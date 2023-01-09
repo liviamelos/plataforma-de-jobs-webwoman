@@ -1,0 +1,137 @@
+main h3{
+    padding: 40px 0 40px 20px;
+    color: var(--color-grey-1);
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.card {
+    background-color: var(--color-grey-6);
+    list-style-type: none;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+    border-radius: 8px;
+}
+
+.card > span {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--color-grey-1);
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 33px;
+}
+
+.info-card {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px; 
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--color-grey-2);
+}
+
+.card p {
+    color: var(--color-grey-2);
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.button-modalities {
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.button-card  {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 32px;
+}
+
+.button-card .grey-button {
+    height: 30px;
+    background-color: var(--color-grey-3);
+    color: var(--color-grey-2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 12px;
+    gap: 10px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.button-card .purple-button {
+    background: var(--color-brand-1);
+    border: 2px solid var(--color-brand-1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 28px;
+    gap: 10px;
+    border: none;
+    border-radius: 8px;
+    color: var(--color-grey-6);
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+@media(min-width: 768px) {
+
+    .main-container{
+        flex-direction: row;
+    }
+
+    .section-cards{
+        width: 70%;
+    }
+
+    .cards {
+        width: 100%;
+        margin-right: 78px;
+        margin-bottom: 78px;
+        padding-left: 20px;
+    }
+
+    .card { 
+        padding: 30px;
+    }
+
+    .card > span { 
+        font-size: 22px;
+    }
+
+    .button-card {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .button-card .purple-button {
+        height: 38px;
+    }
+
+}
