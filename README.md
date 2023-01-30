@@ -1,2 +1,2 @@
 # plataforma-de-jobs-webwoman
-Plataforma voltada para mulheres encontrarem trabalho na área de tecnologia. Linguagens: html, css e javascript.
+Webwoman é uma lataforma voltada para mulheres encontrarem e se aplicarem para vagas na área de tecnologia. Linguagens: HTML, CSS e JavaScript.
